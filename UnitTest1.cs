@@ -41,7 +41,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestlessThanTrue()
+    public void TestLessThanTrue()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -52,7 +52,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestlessThanOrEqualTrue()
+    public void TestLessThanOrEqualTrue()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -63,7 +63,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestlessThanFalse()
+    public void TestLessThanFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
@@ -74,7 +74,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestlessThanOrequalFalse()
+    public void TestLessThanOrEqualFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
@@ -85,7 +85,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestmoreThanTrue()
+    public void TestMoreThanTrue()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
@@ -96,7 +96,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestmoreThanOrEqualTrue()
+    public void TestMoreThanOrEqualTrue()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
@@ -107,7 +107,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestmoreThanFalse()
+    public void TestMoreThanFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -118,7 +118,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestmoreThanOrEqualFalse()
+    public void TestMoreThanOrEqualFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -129,7 +129,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestequallyTrue()
+    public void TestEquallyTrue()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -140,7 +140,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestequallyFalse()
+    public void TestEquallyFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
@@ -151,7 +151,7 @@ namespace UnitTestProject
     }
 
     [TestMethod]
-    public void TestnotEquallyFalse()
+    public void TestNotEquallyFalse()
     {
       SquareMatrix firstMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
       SquareMatrix secondMatrix = new SquareMatrix(new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 92 } });
